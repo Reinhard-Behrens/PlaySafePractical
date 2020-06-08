@@ -14,8 +14,8 @@ I researched to find the formulae's for each of the needed conversions, and adde
 2. Step 2 - I created an a package to contain the API's
 3. Step 3 - I started developing the Restcontroller for each service
 4. Step 4 - I iterratively added the functions to each part of the code, and added the nessary Spring-Web annotations.
-5. Step 5 - During the development process I made mistakes (which I corrected through rapid prototyping), they are listed under the Mistakes and Fixes category.
-6 The URL's which was tested using PostMan using HTTP GET requests
+5. Step 5 - During the development process I made mistakes (which I corrected through rapid prototyping), blocking faults are listed under the Mistakes and Fixes category.
+6 The URL's which was tested was done using PostMan using HTTP GET requests
 
 ## Service URI's for the project
 Please find below the service api's for the conversion service. There are three services each with a paramater variable for the input for the service, and produces a response in the HTTP reponse body containing the answer.
