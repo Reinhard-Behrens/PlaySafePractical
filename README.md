@@ -37,12 +37,12 @@ There was two critical flaws in my application, which blocked me from completing
 
 Bug 1
 -----
-Bug one, Spring failed to pick-up my @RequestMapping URI mappings specified in my Java classes. 
+Bug one, Spring failed to pick-up my @RequestMapping URI mappings specified in my Java classes. I had to do research to fix this particular issue. 
 
-I did not know about this fix unfortunately, which makes the classes known to Spring if it missed it during its start-up scan of your src directory. I had to force Spring to inlude my classes:
+I did not know about this fix unfortunately; which makes the classes known to Spring if it missed it during its start-up scan of your src directory. I had to force Spring to inlude my classes using this line of code during SpringBoot initialisation:
 > @ComponentScan(basePackageClasses = {KelvinToCelcuis.class, MilesToKilometers.class,PoundsToKilograms.class})
 
 Bug 2
 -----
-Forgot the @PathVariable("") brackets 
+Forgot the @PathVariable("") brackets and variable decleration
 
